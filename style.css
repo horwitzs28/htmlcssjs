@@ -1,0 +1,400 @@
+* {
+  transition: .4s ease-in-out;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh; /* Make the content fill the page so the footer is at the bottom */
+  display: flex;
+  flex-direction: column;
+  font-size: 32px;
+  background-color: var(--body-background);
+  color: var(--body-text-colour);
+}
+
+h2{
+  font-family: "Chau Philomene One", sans-serif;
+}
+
+
+main {
+  height: 100%;
+  justify-content: center;
+  margin: 0 auto; /* Center if the browser is really wide */
+  min-width: 100%; /* Don't let the content get too narrow */
+  max-width: 100%; /*  Don't let the content get too wide */
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #521313;
+}
+
+.main2 {
+  height: 100%;
+  justify-content: center;
+  max-width: 200px;
+  min-width: 100%; /* Don't let the content get too narrow */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #521313;
+  text-align: center;
+  background-image: url('images/backgroundbricks2.png');
+  min-height: 150vh;
+  padding: 5px 5px 5px 5px;
+}
+
+.info{
+  color: #521313;
+  background-color: #ffeab0;
+  align-self: center;
+  text-align: center;
+  max-width: 900px;
+  min-width: none;
+  opacity: 1;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  
+}
+
+.london-eye{
+  background-color: #ffeab0;
+  display: flex;
+  
+  max-width: 900px;
+  max-height: 300px;
+  width: 900px;
+   opacity: 0.8;
+ 
+}
+p{
+  font-size: small;
+}
+.attraction:hover{
+  opacity: 1;
+}
+.attraction{
+  background-color: #ffeab0;
+  max-width: 900px;
+  max-height: 300px;
+  width: 900px;
+   opacity: 0.6;
+  
+   
+}
+
+.h7{
+font-size: smaller;
+
+}
+.accordion {
+  background-color: #521313;
+  color: #ffeab0;
+  cursor: pointer;
+  padding: 18px;
+  width: 800px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: 0 auto;
+  border-radius: 10%;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #721d1d;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #ffeab0;
+  display: none;
+  overflow: hidden;
+}
+.fact{
+  opacity: 0;
+  color: #521313;
+
+}
+.fact:hover {
+opacity: 1;
+}
+section {
+  width: 95%;
+  text-align: center;
+  padding: 2.5% 2.5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+footer{
+  display: block;
+  background-color: #521313;
+  color: #ffeab0 ;
+  font-size: 20px;
+  text-align: center;
+}
+
+h6{
+  padding: 5px 5px 5px 5px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.attraction2{
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 700px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+blockquote{
+  font-size: smaller;
+  text-align: left;
+  margin-left: 55px;
+}
+
+td, th {
+  border: 2px solid #521313;
+  text-align: center;
+  padding: 8px;
+  font-size: smaller;
+}
+
+tr:nth-child(even) {
+  background-color: #ffeab0;
+}
+li{
+  text-align: left;
+  font-size: smaller;
+  margin-left: 25px;
+}
+
+/* Add your CSS here */
+
+
+
+/* Animations */
+
+
+
+
+
+section {
+  width: 95%;
+  text-align: center;
+  padding: 2.5% 2.5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+h1 {
+  width: 100%;
+}
+
+/* Add your CSS here */
+nav {
+  padding: 0 25px;
+  height: 60px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--nav-colour);
+}
+
+.nav-items {
+  display: flex;
+  gap: 100px;
+}
+
+.nav-items > a {
+  color: var(--nav-link-colour);
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.nav-items > a {
+  color: var(--nav-link-colour);
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.nav-items .active {
+  color: var(--highlight-colour);
+  pointer-events: none;
+}
+
+.hero-image {
+  min-height: 80vh;
+  background-image: url('images/heroimage.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-image2 {
+  min-height: 80vh;
+  background-image: url('images/hero22.webp');
+  background-size: cover;
+  background-position: center;
+}
+.hero-image3 {
+  min-height: 80vh;
+  background-image: url('images/hero3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.caption {
+  position: absolute;
+  text-transform: uppercase;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+}
+
+.border {
+  background-color: var(--border-bgcol);
+  color: white;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.bricks{
+  min-height: 80vh;
+  background-image: url('images/stupidmap.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+
+.again{
+  min-height: 85vh;
+  background-image: url('images/ugh.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+
+.image-holder{
+
+  position: center;
+  top: 100%;
+  width: 100%;
+  text-align: center;
+  opacity: 1;
+  min-height: 50vh;
+  min-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  color: rgba(82, 19, 19, 1);
+  text-decoration: none;
+  visibility: visible;
+  font-family: sans-serif;
+  font-size: 30px;
+ align-items: center;
+ justify-content: center;
+
+}
+
+
+
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 1;
+  animation: appear 2s ease;
+}
+
+@keyframes grow {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.grow-in {
+  opacity: 1;
+  animation: grow 2s ease;
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(-70%);
+    opacity: 1;
+  }
+}
+
+.rise-in {
+  opacity: 1;
+  transform: translateY(-70%);
+  animation: rise 2s ease;
+}
+
+@keyframes slide-in-left {
+  from {
+    transform: translatex(-70%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.slide-left {
+  opacity: 1;
+  animation: slide-in-left 2s ease;
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translatex(70%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.slide-right {
+  opacity: 1;
+  animation: slide-in-right 2s ease;
+}
+
+* {
+  transition: .4s ease-in-out;
+}

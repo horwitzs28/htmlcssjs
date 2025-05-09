@@ -1,0 +1,21 @@
+/* Import a font */
+.chau-philomene-one-regular {
+  font-family: "Chau Philomene One", sans-serif;
+  font-weight: 30;
+  font-style: normal;
+}
+
+/* Set up colour palette and fonts using variables */
+:root {
+  
+  --body-background-colour: #521313;
+  --body-text-colour: #ffeab0;
+
+  --highlight-colour: #ffffff;
+
+  --nav-colour: #521313;
+  --nav-link-colour: #ffeab0;
+
+  --main-font: "Chau Philomene One", sans-serif;
+  --border-bgcol: #222525;
+}
